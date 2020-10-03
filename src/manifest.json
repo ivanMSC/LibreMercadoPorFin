@@ -1,0 +1,12 @@
+{
+  "name": "Libre Mercado Al Fin",
+  "version": "1.0",
+  "description": "Hace lo posible para aniquilar tiendas Chinas en el resultado de busqueda de mercadolibre.cl",
+  "manifest_version": 2,
+	"content_scripts": [
+    {
+        "matches": ["*://*.mercadolibre.cl/*"],
+        "js": ["/content_script.js"]
+    }
+]
+}
