@@ -24,3 +24,6 @@ EL click activa el código que lo que hace es borrar del listado todos aquellos 
 ![Ejemplo](https://raw.githubusercontent.com/ivanMSC/LibreMercadoPorFin/main/Ejemplo.png)
 
 Puede pasar que tu búsqueda entregue únicamente elementos "Internacionales" así que el resultado será una página vacía. En ese caso, pasa a la página 2 y sigue buscando.
+
+## [Cómprame un café](https://linktr.ee/ivanMSC)
+
