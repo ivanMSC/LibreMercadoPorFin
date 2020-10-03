@@ -5,7 +5,7 @@ Cansado del spam de las tiendas chinas en mercado libre? A mi me tenian fastidia
 La extensión no filtra esas otras tiendas de mierda que no son internacionales pero actuan como importadores (buscalibre, 2ebox, etc). La extensión borra esos vendedores que son derechamente extranjeros. Peor es nada.
 
 ## Instalación
-1. Descargar los dos archivos de la carpeta src y ponerlos en una carpeta en tu computador.
+1. Descargar los dos archivos de la carpeta src y ponerlos en una carpeta en tu computador. O bien descargar un zip de [acá](https://raw.githubusercontent.com/ivanMSC/LibreMercadoPorFin/main/LibreMercadoPorFin.zip)
 2. Abrir el administrador de extensiones en Chrome. 
 3. Habilitar Modo de Desarrollador (boton arriba a la derecha)
 4. Click en "Cargar descomprimida"
