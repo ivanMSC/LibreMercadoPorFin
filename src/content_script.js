@@ -1,5 +1,8 @@
-(function(d, w) {
-  function load () {
+(function(d) {
+  // Cargar sólo si es una página de resultados
+  if (!d.querySelector('section.ui-search-results')) return;
+  
+  (function load () {
     // Apuntar al flair del tipo de productos, filtrar por los que dicen "Internacional",
     // obtener el <li> parent, y filtrar los que no hayan sido ocultados.
     let results = Array.from(d.querySelectorAll('span.ui-search-item__details'))
@@ -12,10 +15,5 @@
       results.forEach(i => { i.style.display = "none" });
       setTimeout(load, 500);
     }
-  }
-  
-  // Cargar sólo si es una página de resultados
-  if (d.querySelector('section.ui-search-results')) {
-    load();
-  }
-})(document, window);
+  })();
+})(document);
