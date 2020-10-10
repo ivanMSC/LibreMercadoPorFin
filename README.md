@@ -15,7 +15,7 @@ La extensión no filtra esas otras tiendas de mierda que no son internacionales 
 6. Listo.
 
 ### Userscript (otros navegadoes)
-Instala una extensión de Userscripts (como por ejemplo, [Tampermonkey](https://www.tampermonkey.net/)) y haz clic [aquí](/src/script.user.js).
+Instala una extensión de Userscripts (como por ejemplo, [Tampermonkey](https://www.tampermonkey.net/)), entra [aquí](/src/script.user.js) y luego pulsa "RAW".
 
 ## Uso
 La cosa es bien simple:
