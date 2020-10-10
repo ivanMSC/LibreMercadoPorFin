@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name        Libre Mercado Al Fin
+// @namespace   https://mak.wtf/
+// @match       *://*.mercadolibre.cl/*
+// @grant       none
+// @version     1.1.0
+// @author      makzk, ivanMSC
+// @description 10/9/2020, 01:23:15 PM
+// ==/UserScript==
+
 (function(d) {
   // Cargar sólo si es una página de resultados
   if (!d.querySelector('section.ui-search-results')) return;
