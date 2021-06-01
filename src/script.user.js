@@ -3,9 +3,9 @@
 // @namespace   https://mak.wtf/
 // @match       *://*.mercadolibre.cl/*
 // @grant       none
-// @version     1.1.0
+// @version     1.2.0
 // @author      makzk, ivanMSC
-// @description 10/9/2020, 01:23:15 PM
+// @description 01/6/2021, 19:27:41 PM
 // ==/UserScript==
 
 (function(d) {
@@ -13,10 +13,14 @@
   if (!d.querySelector('section.ui-search-results')) return;
   
   (function load () {
+	// <Obsoleto>
     // Apuntar al flair del tipo de productos, filtrar por los que dicen "Internacional",
     // obtener el <li> parent, y filtrar los que no hayan sido ocultados.
-    let results = Array.from(d.querySelectorAll('span.ui-search-item__details'))
-      .filter(i => i.textContent === 'Internacional')
+	// </Obsoleto>
+	// 20210601: Mercadolibre cambió. Ahora se buscan los divs con clase 
+	// ui-search-item__group.ui-search-item__group--vertical-highlight que contiene
+	// el famoso texto (que no es texto sino que un svg) de compra internacional.
+    let results = Array.from(d.querySelectorAll('div.ui-search-item__group.ui-search-item__group--vertical-highlight'))
       .map(j => j.closest('li.ui-search-layout__item'))
       .filter(k => k.style.display !== "none");
     
