@@ -5,6 +5,8 @@ Extensión para Chrome que hace lo posible para aniquilar tiendas Chinas en el r
 Cansado del spam de las tiendas chinas en mercado libre? A mi me tenian fastidiado, así que busqué como crear una extensión para Chrome y este es el resultado.
 La extensión no filtra esas otras tiendas de mierda que no son internacionales pero actuan como importadores (buscalibre, 2ebox, etc). La extensión borra esos vendedores que son derechamente extranjeros. Peor es nada.
 
+Version 1.2.2 actualizada el 23-01-2023: Ahora borra resultados de búsqueda que muestran el típico mensaje "Disponible X días después de tu compra". Cambié el manifest a version 3 (ni puta idea que significa, pero Chrome me manda a la mierda el manifest v2. A lo choro, le mandé un 3 en el manifest y era. A ver si pasa.) 
+
 ## Instalación
 
 ### Chrome
