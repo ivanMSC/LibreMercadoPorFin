@@ -1,6 +1,6 @@
 {
   "name": "Libre Mercado Por Fin",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Hace lo posible para aniquilar tiendas Chinas en el resultado de busqueda de mercadolibre.cl.",
 	"icons": {"128":"128.png"},
   "manifest_version": 3,

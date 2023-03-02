@@ -7,6 +7,8 @@ La extensión no filtra esas otras tiendas de mierda que no son internacionales 
 
 Version 1.2.2 actualizada el 23-01-2023: Ahora borra resultados de búsqueda que muestran el típico mensaje "Disponible X días después de tu compra". Cambié el manifest a version 3 (ni puta idea que significa, pero Chrome me manda a la mierda el manifest v2. A lo choro, le mandé un 3 en el manifest y era. A ver si pasa.) 
 
+Version 1.2.3 actualizada el 01-03-2023: Se arregla bug que eliminaba resultados del "supermercado" de mercadolibre. Ahora elimina solo los que tienen el svg azul de "Compra internacional" (lo cual antes colisionaba con "supermercado").
+
 ## Instalación
 
 ### Chrome

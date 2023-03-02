@@ -3,9 +3,9 @@
 // @namespace   https://mak.wtf/
 // @match       *://*.mercadolibre.cl/*
 // @grant       none
-// @version     1.2.2
-// @author      makzk, ivanMSC
-// @description 23/01/2023, 22:10:00 PM
+// @version     1.2.3
+// @author      ivanMSC, makzk 
+// @description 01/03/2023, 23:33:00 PM
 // ==/UserScript==
 
 (function(d) {
@@ -13,9 +13,9 @@
   if (!d.querySelector('section.ui-search-results')) return;
   
   (function load () {
-	// Se buscan los divs con clase ui-search-item__group.ui-search-item__group--vertical-highlight 
+	// Se buscan los svg con clase ui-search-icon.ui-search-icon--international-logo.ui-search-vertical-highlight__icon 
 	// que contiene el texto (que no es texto sino que un svg) de compra internacional.
-    let results = Array.from(d.querySelectorAll('div.ui-search-item__group.ui-search-item__group--vertical-highlight'))
+    let results = Array.from(d.querySelectorAll('svg.ui-search-icon.ui-search-icon--international-logo.ui-search-vertical-highlight__icon'))
 		.map(j => j.closest('li.ui-search-layout__item'))
 		.filter(k => k.style.display !== "none");
 		
