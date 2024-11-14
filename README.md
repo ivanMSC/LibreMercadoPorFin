@@ -9,6 +9,8 @@ Version 1.2.2 actualizada el 23-01-2023: Ahora borra resultados de búsqueda que
 
 Version 1.2.3 actualizada el 01-03-2023: Se arregla bug que eliminaba resultados del "supermercado" de mercadolibre. Ahora elimina solo los que tienen el svg azul de "Compra internacional" (lo cual antes colisionaba con "supermercado").
 
+Version 1.2.4 actualizada el 13-11-2024: Recién hoy me di cuenta que la extensión ya no funcionaba. Mercado Libre hizo mil modificaciones en su sitio así que tuve que cambiar los parámetros de búsqueda en el script. Ahora ha vuelto a funcionar.
+
 ## Instalación
 
 ### Chrome
