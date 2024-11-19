@@ -11,6 +11,8 @@ Version 1.2.3 actualizada el 01-03-2023: Se arregla bug que eliminaba resultados
 
 Version 1.2.4 actualizada el 13-11-2024: Recién hoy me di cuenta que la extensión ya no funcionaba. Mercado Libre hizo mil modificaciones en su sitio así que tuve que cambiar los parámetros de búsqueda en el script. Ahora ha vuelto a funcionar.
 
+Version 1.2.5 Algo no le gusto a la chromestore, a ver si esta si la aprueban.
+
 ## Instalación
 
 ### Chrome
