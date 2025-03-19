@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name        Libre Mercado Al Fin
-// @namespace   https://mak.wtf/
 // @match       *://*.mercadolibre.cl/*
 // @grant       none
-// @version     1.2.5
-// @author      ivanMSC, makzk 
+// @version     1.2.6
+// @author      ivanMSC
 // @description 01/03/2023, 23:33:00 PM
 // ==/UserScript==
 
@@ -39,6 +38,13 @@
 		resultsLlegaElDiaDelPico.forEach(i => { i.style.display = "none" });
     }
 	
+	// Borrar "X opciones de compra"
+    let resultsXopcionesdecompra = Array.from(d.querySelectorAll('a.poly-component__purchase-options'))
+		.map(j => j.closest('li.ui-search-layout__item'))
+		.filter(k => k.style.display !== "none");
+    if (resultsXopcionesdecompra.length > 0) {
+		resultsXopcionesdecompra.forEach(i => { i.style.display = "none" });
+    }
 	
   })();
 })(document);
