@@ -2,7 +2,7 @@
 // @name        Libre Mercado Al Fin
 // @match       *://*.mercadolibre.cl/*
 // @grant       none
-// @version     1.2.6
+// @version     1.2.7
 // @author      ivanMSC
 // @description 01/03/2023, 23:33:00 PM
 // ==/UserScript==
@@ -11,7 +11,7 @@
   // Cargar sólo si es una página de resultados
   if (!d.querySelector('section.ui-search-results')) return;
   
-  (function load () {
+  function load () {
 
     let results = Array.from(d.querySelectorAll('span.poly-component__cbt'))
 		.map(j => j.closest('li.ui-search-layout__item'))
@@ -46,5 +46,12 @@
 		resultsXopcionesdecompra.forEach(i => { i.style.display = "none" });
     }
 	
-  })();
+  };
+  
+  load();
+  
+  // Observar cambios en la página para aplicar el ocultamiento si reaparecen
+  const observer = new MutationObserver(load);
+  observer.observe(d.querySelector('section.ui-search-results'), { childList: true, subtree: true });
+  
 })(document);

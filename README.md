@@ -13,6 +13,10 @@ Version 1.2.4 actualizada el 13-11-2024: Recién hoy me di cuenta que la extensi
 
 Version 1.2.5 Algo no le gusto a la chromestore, a ver si esta si la aprueban.
 
+Version 1.2.6 Remueve resultados que muestran X opciones de compra. En general son articulos de catalogo chino.
+
+Version 1.2.7 actualizada el 04-mayo-2025: El sitio de mercadolibre esta recargando los resultados despues de ocultarlos. Para solucionarlo, puse un MutationObserver en el script para que se ejecute cada vez que se detectan cambios.
+
 ## Instalación
 
 ### Chrome
