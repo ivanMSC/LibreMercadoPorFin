@@ -5,18 +5,6 @@ Extensión para Chrome que hace lo posible para aniquilar tiendas Chinas en el r
 Cansado del spam de las tiendas chinas en mercado libre? A mi me tenian fastidiado, así que busqué como crear una extensión para Chrome y este es el resultado.
 La extensión no filtra esas otras tiendas de mierda que no son internacionales pero actuan como importadores (buscalibre, 2ebox, etc). La extensión borra esos vendedores que son derechamente extranjeros. Peor es nada.
 
-Version 1.2.2 actualizada el 23-01-2023: Ahora borra resultados de búsqueda que muestran el típico mensaje "Disponible X días después de tu compra". Cambié el manifest a version 3 (ni puta idea que significa, pero Chrome me manda a la mierda el manifest v2. A lo choro, le mandé un 3 en el manifest y era. A ver si pasa.) 
-
-Version 1.2.3 actualizada el 01-03-2023: Se arregla bug que eliminaba resultados del "supermercado" de mercadolibre. Ahora elimina solo los que tienen el svg azul de "Compra internacional" (lo cual antes colisionaba con "supermercado").
-
-Version 1.2.4 actualizada el 13-11-2024: Recién hoy me di cuenta que la extensión ya no funcionaba. Mercado Libre hizo mil modificaciones en su sitio así que tuve que cambiar los parámetros de búsqueda en el script. Ahora ha vuelto a funcionar.
-
-Version 1.2.5 Algo no le gusto a la chromestore, a ver si esta si la aprueban.
-
-Version 1.2.6 Remueve resultados que muestran X opciones de compra. En general son articulos de catalogo chino.
-
-Version 1.2.7 actualizada el 04-mayo-2025: El sitio de mercadolibre esta recargando los resultados despues de ocultarlos. Para solucionarlo, puse un MutationObserver en el script para que se ejecute cada vez que se detectan cambios.
-
 ## Instalación
 
 ### Chrome
@@ -46,5 +34,18 @@ Puede pasar que tu búsqueda entregue únicamente elementos "Internacionales" as
 ![Ejemplo](https://raw.githubusercontent.com/ivanMSC/LibreMercadoPorFin/main/Ejemplo.png)
 
 
+## Historial
+
+Version 1.2.2 actualizada el 23-01-2023: Ahora borra resultados de búsqueda que muestran el típico mensaje "Disponible X días después de tu compra". Cambié el manifest a version 3 (ni puta idea que significa, pero Chrome me manda a la mierda el manifest v2. A lo choro, le mandé un 3 en el manifest y era. A ver si pasa.) 
+
+Version 1.2.3 actualizada el 01-03-2023: Se arregla bug que eliminaba resultados del "supermercado" de mercadolibre. Ahora elimina solo los que tienen el svg azul de "Compra internacional" (lo cual antes colisionaba con "supermercado").
+
+Version 1.2.4 actualizada el 13-11-2024: Recién hoy me di cuenta que la extensión ya no funcionaba. Mercado Libre hizo mil modificaciones en su sitio así que tuve que cambiar los parámetros de búsqueda en el script. Ahora ha vuelto a funcionar.
+
+Version 1.2.5 Algo no le gusto a la chromestore, a ver si esta si la aprueban.
+
+Version 1.2.6 Remueve resultados que muestran X opciones de compra. En general son articulos de catalogo chino.
+
+Version 1.2.7 actualizada el 04-mayo-2025: El sitio de mercadolibre esta recargando los resultados despues de ocultarlos. Para solucionarlo, puse un MutationObserver en el script para que se ejecute cada vez que se detectan cambios.
 
 ## [Cómprame un café](https://linktr.ee/ivanMSC)
